@@ -10,6 +10,7 @@ def throws_an_exception():
 
 def calling_things():
     works_fine()
+    set_trace() # 这一行用来以其他方式调用debugger
     throws_an_exception()
 
 calling_things()
